@@ -1,15 +1,22 @@
+*{
+text-align: center;
+margin-top: 10px;
 
+}
 body {
+  
+
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-
+  
 
     box-sizing: border-box;
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 12s ease infinite;
+
   }
   
   @keyframes gradient {
@@ -24,7 +31,10 @@ body {
       }
   }
     
-  
+.header h1{
+text-align: center;
+font-family: monospace;
+}  
 
 .navbar ul{
   list-style: none;
@@ -32,7 +42,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  position: fixed;
+  position: relative;
 
 }
 
@@ -44,9 +54,13 @@ display: inline-block;
 
 
 .navbar a{
-width: 100px;
+font-family: monospace;
+font-size: 18px;
+width: 150px;
 display: block;
 text-align: center;
+color: aliceblue;
+
 }
 
 .hero-banner{
@@ -55,12 +69,6 @@ width: 100%;
 background-image: url(/starter/images/Banner.jpeg);
 background-size: cover;
 background-position: center;
-
-}
-
-.container{
-  display: grid;
-  grid-template-columns: 25% 75%;
 
 }
 
@@ -76,3 +84,33 @@ h6 {
 p {
   margin: 25px;
 }
+
+.about-me img {
+height:200px;
+margin-left: 5px;
+border-radius: 25%;
+
+
+}
+
+.avatar img{
+border-radius: 50%;
+height: 100px;
+overflow: hidden;
+display: flex;
+justify-content: start;
+}
+
+.avatar{
+  position: absolute;
+  
+
+  
+}
+
+.header{
+  display: flex;
+  justify-content:space-between;
+}
+
+
