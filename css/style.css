@@ -13,7 +13,7 @@ body {
   
 
     box-sizing: border-box;
-      background: linear-gradient(-45deg, #b8b6b6, #cacece, #9d9e9e, #909997);
+      background: linear-gradient(-45deg, #6d90f1, #26adad, #41e2e2, #36ebc3);
       background-size: 400% 400%;
       animation: gradient 12s ease infinite;
 
@@ -36,8 +36,10 @@ text-align: center;
 font-family: monospace;
 position: relative;
 left: 50px;
-color: rgb(6, 6, 51);
+color: rgb(28, 28, 175);
+
 }  
+
 
 .navbar {
 display: flex;
@@ -46,7 +48,8 @@ background-color: none;
 
 }
 .navbar ul li a:hover{
-  color: rgb(129, 25, 25);
+  color: rgb(82, 112, 247);
+  
 }
 
 .navbar ul{
@@ -61,12 +64,12 @@ background-color: none;
 
 .navbar li {
 display: inline-block;
-background-color: rgb(141, 137, 137);
+background-color: rgb(20, 7, 7);
 border-radius: 5%;
 font-weight: bold;
 
-
 }
+
 
 
 .navbar a{
@@ -210,4 +213,12 @@ border-radius: 25%;
 .contlink{
   text-align: center;
 
+}
+/* responsive for mobile phones */
+
+@media  screen (max-width: 767px) {
+  
+  [class*="col-"] {
+    width: 100%;
+  }
 }
