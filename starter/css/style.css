@@ -13,7 +13,7 @@ body {
   
 
     box-sizing: border-box;
-      background: linear-gradient(-45deg, #fcf7f6, #8bf3ee, #98d2e7, #23d5ab);
+      background: linear-gradient(-45deg, #b8b6b6, #909797, #9d9e9e, #909997);
       background-size: 400% 400%;
       animation: gradient 12s ease infinite;
 
@@ -136,39 +136,45 @@ border-radius: 25%;
   grid-template-rows: 300px 100px 100px 100px;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-areas: 
-  "co bo be"
-  "co d p"
-  "co d p"; 
+  "pr ho lp"
+  "pr d p"
+  "pr c p"; 
   
 }
 #bookcases {
-    grid-area: bo;
+    grid-area: ho;
   background-image: url("/starter/images/02-portfolio-1.jpg");
+  border-radius: 2%;
 
 }
 #bedroom {
-   grid-area: be;
+   grid-area: lp;
   background-image: url("/starter/images/02-portfolio-2.jpg");
+  border-radius: 2%;
 }
 
 #couches {
-  grid-area: co;
+  grid-area: pr;
   background-image: url("/starter/images/02-portfolio-3.jpg");
+  border-radius: 2%;
 }
 
 #patio {
    grid-area: p;
   background-image: url("/starter/images/02-portfolio-4.jpg");
+  border-radius: 2%;
 }
 
 #desk {
-  grid-area: d;
+  grid-area: c;
  background-image: url("/starter/images/02-portfolio-3.jpg");
+ border-radius: 2%;
 }
  .about-me {
   background-color: none;
   padding: 10px;
   margin-right: 10px;
+  margin-bottom: 30px;
   border-right: 6px solid black;
 
 
@@ -178,6 +184,7 @@ border-radius: 25%;
   padding: 10px;
   margin-right: 10px;
   border-right: 6px solid black;
+  margin-bottom: 30px;
 
  }
 
@@ -186,5 +193,6 @@ border-radius: 25%;
   padding: 10px;
   margin-right: 10px;
   border-right: 6px solid black;
+
 
  }
