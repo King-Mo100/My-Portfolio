@@ -82,7 +82,7 @@ color: rgb(8, 33, 54);
 .hero-banner{
 height: 450px;
 width: 100%;
-background-image: url(/starter/images/Banner.jpeg);
+background-image: url(../images/Banner.jpeg);
 background-size: cover;
 background-position: center;
 
@@ -151,25 +151,25 @@ border-radius: 25%;
 }
 #horiseon {
     grid-area: ho;
-  background-image: url("/starter/images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
   border-radius: 2%;
 
 }
 #landing-page {
    grid-area: lp;
-  background-image: url("/starter/images/02-portfolio-2.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
   border-radius: 2%;
 }
 
 #prework {
   grid-area: pr;
-  background-image: url("/starter/images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
   border-radius: 2%;
 }
 
 #portfolio {
    grid-area: p;
-  background-image: url("/starter/images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
   border-radius: 2%;
 }
 
@@ -179,7 +179,7 @@ border-radius: 25%;
 }
 #challenge {
   grid-area: c;
- background-image: url("/starter/images/02-portfolio-3.jpg");
+ background-image: url("../images/02-portfolio-3.jpg");
  border-radius: 2%;
  
 }
